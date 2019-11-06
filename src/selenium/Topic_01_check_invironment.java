@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class Topic_01_check_invironment {
 	WebDriver driver;
-
+//pre-condition
 	@BeforeClass
 	public void beforeClass() {
 		driver = new FirefoxDriver();
